@@ -18,5 +18,6 @@ const compareHash = async (password) => {
   return result;
 };
 compareHash(password).then((data) => {
-  console.log(data);
+  return data
+  console.log(data)
 });
